@@ -21,8 +21,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-h1,
-h2 {
+h1 {
   font-family: Montserrat;
   font-size: 60px;
   font-style: normal;
@@ -30,6 +29,12 @@ h2 {
   line-height: 130%;
   letter-spacing: -1.2px;
   color: #707070;
+}
+h2 {
+  color: #707070;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
 }
 
 p {
@@ -90,12 +95,19 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 72px;
+  width: 60%;
+  margin-inline: auto;
 }
 .recipe {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
+}
+.recipe h2 {
+  color: #18191f;
+  padding-top: 39px;
 }
 .sub-recipe {
   padding: 30px;
@@ -116,4 +128,11 @@ p {
 
   justify-content: center;
   align-items: center;
+}
+.stat {
+  margin-block: 64px;
+}
+.stat-sub h2,
+p {
+  color: #18191f;
 }
